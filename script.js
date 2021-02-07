@@ -21,6 +21,8 @@ function qwer(stri) {
   return a;
 }
 
+
+
 console.log(qwer('qweertuty'));
 
 //----------------------------------
