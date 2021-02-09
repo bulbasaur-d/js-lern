@@ -176,5 +176,14 @@ let arrayC = arrC.map(function (item) {
 });
 console.log(arrayC);
 
+//-----------------------------------------------
 
+function shortestWord(str) {
+  let shortestWord = str.split(' ').sort(function(a, b) { return a.length - b.length; });
+  
+  return shortestWord[0].length;
+}
+console.log(shortestWord("The quick brown fox jumped over the lazy dog"));
+
+//--------------------------------------------------
 
